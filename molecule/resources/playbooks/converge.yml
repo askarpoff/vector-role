@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: 'Apple Vector Role'
+      include_role:
+        name: vector-role
